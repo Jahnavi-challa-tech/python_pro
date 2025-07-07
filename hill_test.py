@@ -12,6 +12,7 @@ ser = serial.Serial(
     timeout=1          # Timeout in seconds
 )
 
+
 # Function to send integer data to the UART
 def send_integer_data(data):
     if isinstance(data, int):
